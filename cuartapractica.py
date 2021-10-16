@@ -16,6 +16,8 @@ url= "https://pokeapi.co/api/v2/pokemon/" + pokemon
 res = requests.get(url)
 
 #preguntamos si este pokemon no se encuentra en la lista
+#200 es un numero que indica que el pokemon fue encontrado, 
+# si no lo es entonces finalizamos programa
 if res.status_code !=200 :
     print("Pokemon no encontrado")
     exit()
