@@ -1,5 +1,5 @@
 #Operaciones matematicas
 ## Division entera //
 #potencia es con **
-
-print("hello world")
+name = input("Give me your name: ")
+print("hello " + name)
